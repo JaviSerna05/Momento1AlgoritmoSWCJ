@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ejercicio 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <script>
+            let a = 0;
+            let b = 0;
+            let resp = 0;
+
+            a = paseInt(prompt("Ingrese el número A:"));
+            b = paseInt(prompt("Ingrese el número B:"));
+
+
+            alert(suma(a, b));
+            alert(resta(a, b));
+            alert(multiplicacion(a, b));
+            alert(division(a, b));
+
+
+            function suma(a, b){
+    
+                resp = a + b;
+            } return "La Suma de " + a + " y " + b + " es: " + resp;
+
+            function resta(a, b){
+    
+                resp = a - b;
+            } return "La Resta de " + a + " y " + b + " es: " + resp;
+
+
+            function multiplicacion(a, b){
+                
+                resp = a * b;
+            } return "La Multiplicación de " + a + " y " + b + " es: " + resp;
+
+            function division(a, b){
+                
+                resp = a / b;
+            } return "La División de " + a + " y " + b + " es: " + resp;
+
+        </script>    
+    </body>
+</html>
